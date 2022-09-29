@@ -82,7 +82,7 @@ function setup() {
   button2 = createImg('cut_btn.png');
   button2.position(30,420);
   button2.size(50,50);
-  button.mouseClicked(drop());
+  button.mouseClicked(drop);
 
   
   ellipseMode(RADIUS);
